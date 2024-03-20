@@ -2,7 +2,6 @@
 // 例如：
 //   [15, 28, 4, 2, 43] 印出 6
 //   [23, 71, 33, 82, 1] 印出 24 
-
 function sumOfSmallestValues(arr) {
     arr.sort((first, second) => {
         return first - second;
